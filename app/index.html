@@ -1,0 +1,12 @@
+<title>WhoChat Live</title>
+<script src="https://simplesocket.net/static/v2/SimpleSocket.js"></script>
+<script src="./script.js"></script>
+<textarea class="txx" id="chatholder" style="text-align: center;resize:none;" readonly></textarea>
+<div class="btm">
+<input hidden id="emojiholder" placeholder="Tag here (Not required)" /><input placeholder="Message here" id="msgholder" class="msgholder" /><button class="sendbtn" onclick="sendmsg()">Send
+</button>
+</div>
+<link rel="stylesheet" href="/style.css">
+<h5 hidden id="typing" class="typing">
+  <span id="typingname">USER</span> is typing...
+</h5>
